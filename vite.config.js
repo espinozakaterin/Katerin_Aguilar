@@ -8,8 +8,8 @@ import handlebars from 'vite-plugin-handlebars';
 import hbsContext  from './context/context';
 export default defineConfig(
     {
-        base: '/',
         appType: 'mpa',
+        base: '/Katerin_Aguilar/',
         build: {
             rollupOptions: {
                 input: Object.fromEntries(
